@@ -1,0 +1,8 @@
+name,value,available_options
+model,base,(tiny|base|small|medium|large)
+language,en,
+alignment_language,en,
+num_speaker,2,(0 to auto detect speakers. Less accurate)
+device,cpu,gpu
+compute_type,int8,float16
+batch_size,8,
